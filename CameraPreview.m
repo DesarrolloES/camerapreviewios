@@ -256,10 +256,6 @@
                      //    cropRect = CGRectMake(0.0,0.0,capturedImage.size.width*perImg,capturedImage.size.height);
                      //    CGImageRef imageRef = CGImageCreateWithImageInRect ([capt CGImage], cropRect);
                      
-                     
-                     
-                     
-                     
                      //Funcionando
                      capturedCImage = [[CIImage alloc] initWithCGImage:[capturedImage CGImage]];
                      CGImageRef imageRef1 = [self.cameraRenderController.ciContext createCGImage:capturedCImage fromRect:capturedCImage.extent];
